@@ -104,23 +104,6 @@ section.testimonials {
 }
 
 @media only screen and (min-width : 768px) {
-    .testimonials__title {
-        &:before, &:after {
-            content: '';
-            position: absolute;
-            width: 95px;
-            height: 1px;
-            background: #cececf;
-        }
-        &:before {
-            left: -50px;
-            top: 50%;
-        }
-        &:after {
-            right: -50px;
-            top: 50%;
-        }
-    }
 }
 
 @media only screen and (min-width : 992px) {
@@ -128,7 +111,7 @@ section.testimonials {
         &:before, &:after {
             content: '';
             position: absolute;
-            width: 45px;
+            width: 94px;
             height: 1px;
             background: #cececf;
         }

@@ -1,7 +1,8 @@
 
 
 $(document).ready(function(){
-
+    $(".js-mask").mask("+7 (999) - 999 - 99 - 99?");
+    $(".phone").mask("+ 7 (999) 999 - 99 - 99?"); 
     $('.az-select').each(function(){
         var select = $(this);    
         var option = select.find('select option');

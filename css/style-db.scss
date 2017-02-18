@@ -1,4 +1,17 @@
-
+.section_db-form-view{
+	font-size: 14px;
+	background-color: #49494b;
+}
+.input_background1{
+	background: url("../img/man.png") no-repeat center left 15px #fff;
+}
+.input_background2{
+	background: url("../img/call.png") no-repeat center left 15px #fff;
+}
+.db-form-button{
+	font-size: 20px;
+	padding: 13px;
+}
 
 @media only screen and (min-width : 320px) {
 }
@@ -10,6 +23,9 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.section_db-form-view{
+		padding:30px 0 !important;
+	}
 }
 
 @media only screen and (min-width : 1248px) {

@@ -1,0 +1,24 @@
+/* line 1, C:/OpenServer/domains/watch.loc/css/style-db.scss */
+.section_db-form-view {
+  font-size: 14px;
+  background-color: #49494b; }
+
+/* line 5, C:/OpenServer/domains/watch.loc/css/style-db.scss */
+.input_background1 {
+  background: url("../img/man.png") no-repeat center left 15px #fff; }
+
+/* line 8, C:/OpenServer/domains/watch.loc/css/style-db.scss */
+.input_background2 {
+  background: url("../img/call.png") no-repeat center left 15px #fff; }
+
+/* line 11, C:/OpenServer/domains/watch.loc/css/style-db.scss */
+.db-form-button {
+  font-size: 20px;
+  padding: 13px; }
+
+@media only screen and (min-width: 992px) {
+  /* line 26, C:/OpenServer/domains/watch.loc/css/style-db.scss */
+  .section_db-form-view {
+    padding: 30px 0 !important; } }
+
+/*# sourceMappingURL=style-db.css.map */

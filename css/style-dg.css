@@ -113,52 +113,35 @@ section.testimonials {
   .dg-left, .dg-right {
     display: block; } }
 
-@media only screen and (min-width: 768px) {
-  /* line 108, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
-  .testimonials__title:before, .testimonials__title:after {
-    content: '';
-    position: absolute;
-    width: 95px;
-    height: 1px;
-    background: #cececf; }
-  /* line 115, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
-  .testimonials__title:before {
-    left: -50px;
-    top: 50%; }
-  /* line 119, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
-  .testimonials__title:after {
-    right: -50px;
-    top: 50%; } }
-
 @media only screen and (min-width: 992px) {
-  /* line 128, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 111, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .testimonials__title:before, .testimonials__title:after {
     content: '';
     position: absolute;
-    width: 45px;
+    width: 94px;
     height: 1px;
     background: #cececf; }
-  /* line 135, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 118, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .testimonials__title:before {
     left: -117px;
     top: 50%; }
-  /* line 139, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 122, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .testimonials__title:after {
     right: -117px;
     top: 50%; } }
 
 @media only screen and (min-width: 1170px) {
-  /* line 147, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 130, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .dg-left {
     background-image: url(/img/left_btn.png);
     background-size: cover;
     left: -60px; }
-  /* line 152, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 135, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .dg-right {
     background-image: url(/img/right_btn.png);
     background-size: cover;
     right: -60px; }
-  /* line 158, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 141, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .testimonials__title:before, .testimonials__title:after {
     width: 94px; } }
 
