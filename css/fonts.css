@@ -55,3 +55,10 @@
     font-style: normal;
     font-weight: normal;
 }
+@font-face {
+    font-family: "HelveticaNeueCyr-Light";
+    src: url("../fonts/HelveticaNeueCyr-Light/HelveticaNeueCyr-Light.ttf");
+    src: url("../fonts/HelveticaNeueCyr-Light/HelveticaNeueCyr-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

@@ -1,16 +1,165 @@
-
+/* Testimonials */
+.owl-prev, .owl-next {
+    display: block !important;
+}
+section.testimonials {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.testimonials__title {
+    text-align: center;
+    font-family: "GothamProBold", sans-serif;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 45px;
+    &:before, &:after {
+        content: none;
+    }
+}
+.clients {
+    font-weight: 300;
+    font-family: "GothamProRegular", sans-serif;
+}
+.testimonials__carousel {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+}
+.testimonials__carousel-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.testimonials__carousel-item {
+    padding: 15px 20px 30px 20px;
+    background: #fddc43;
+    max-height: 440px;
+    overflow: hidden;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+.testimonials__item-name {
+    color: #070707;
+    font-family: "HelveticaNeueCyr-Bold";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.testimonials__item-city {
+    color: #020202;
+    font-family: "HelveticaNeueCyr-Light";
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.testimonials__item-text {
+    color: #060606;
+    font-family: "GothamProLight";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: center;
+    overflow: hidden;
+    max-height: 200px;
+}
+.testimonials__avatar {
+    width: 100px;
+    margin: auto;
+    margin-bottom: 15px;
+    img {
+        display: block;
+        margin: auto;
+        max-width: 100px;
+    }
+}
+.dg-left, .dg-right {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+.dg-left {
+    background-image: url(/img/prev_btn.png);
+    background-size: cover;
+    left: -10px;
+}
+.dg-right {
+    background-image: url(/img/next_btn.png);
+    background-size: cover;
+    right: -10px;
+}
 @media only screen and (min-width : 320px) {
 }
 
 @media only screen and (min-width : 480px) {
+    .dg-left, .dg-right {
+        display: block;
+    }
 }
 
 @media only screen and (min-width : 768px) {
+    .testimonials__title {
+        &:before, &:after {
+            content: '';
+            position: absolute;
+            width: 95px;
+            height: 1px;
+            background: #cececf;
+        }
+        &:before {
+            left: -50px;
+            top: 50%;
+        }
+        &:after {
+            right: -50px;
+            top: 50%;
+        }
+    }
 }
 
 @media only screen and (min-width : 992px) {
+    .testimonials__title {
+        &:before, &:after {
+            content: '';
+            position: absolute;
+            width: 45px;
+            height: 1px;
+            background: #cececf;
+        }
+        &:before {
+            left: -117px;
+            top: 50%;
+        }
+        &:after {
+            right: -117px;
+            top: 50%;
+        }
+    }
+    
 }
-
+@media only screen and (min-width : 1170px) {
+    .dg-left {
+        background-image: url(/img/left_btn.png);
+        background-size: cover;
+        left: -60px;
+    }
+    .dg-right {
+        background-image: url(/img/right_btn.png);
+        background-size: cover;
+        right: -60px;
+    }
+    .testimonials__title {
+        &:before, &:after {
+            width: 94px;
+        }
+    }
+}
 @media only screen and (min-width : 1248px) {
 }
 
