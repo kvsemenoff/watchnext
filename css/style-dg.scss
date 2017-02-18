@@ -239,6 +239,114 @@ section.nabor {
         width: 100%;    
     }
 }
+
+/* Dostavka */
+section.dostavka {
+    padding-top: 50px;
+}
+.dostavka__wrapper {
+    text-align: center;
+}
+.dostavka__title {
+    color: #030303;
+    display: inline-block;
+    position: relative;
+    font-family: "GothamProBold";
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.dostavka__title-span {
+    font-family: "GothamProLight";
+}
+.delivery__sub {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.delivery__sub-text {
+    color: #070707;
+    font-family: "GothamProLight", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+.delivery__block {
+    padding: 30px;
+    margin-bottom: 80px;
+    position: relative;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+.delivery__header {
+    font-family: "GothamProRegular";
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 45px;
+    display: inline-block;
+    position: absolute;
+    top: -55px;
+    left: 34%;
+}
+.delivery__header-terms {
+    color: #49494b;
+    background: #eaeae9;
+}
+.delivery__header-payment {
+    color: #fbf0f0;
+    background: #49494b;
+}
+.delivery__header-conditions {
+    color: #030303;
+    background: #fddc43;
+}
+.delivery__text {
+    font-family: "GothamProRegular";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+}
+.delivery__text-terms {
+    color: #070707;
+    display: inline-block;
+    vertical-align: middle;
+}
+.delivery__text-payment {
+    color: #f9f2f2;
+}
+.delivery__text-conditions {
+    color: #070707;
+}
+.delivery__block-terms {
+    background: #eaeae9;
+}
+.delivery__block-payment {
+    background: #49494b;
+}
+.delivery__block-conditions {
+    background: #fddc43;
+}
+.delivery__top-wrap {
+    width: 100px;
+    height: 70px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    img {
+        max-width: 100%;
+    }
+}
+.delivery__kaz-text {
+    color: #070707;
+    font-family: "GothamProBold", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 20px;
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -316,6 +424,27 @@ section.nabor {
             right: -117px;
             top: 50%;
         }
+    }
+    
+    .dostavka__title {
+        &:before, &:after {
+            content: '';
+            position: absolute;
+            width: 94px;
+            height: 1px;
+            background: #cececf;
+        }
+        &:before {
+            left: -117px;
+            top: 50%;
+        }
+        &:after {
+            right: -117px;
+            top: 50%;
+        }
+    }
+    .delivery__header {
+        left: 39%;
     }
 }
 @media only screen and (min-width : 1170px) {
