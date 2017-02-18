@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,qBAAqB,CACpB,SAAS,CAAE,IAAI,CACf,gBAAgB,CAAE,OAAO,CAE1B,kBAAkB,CACjB,UAAU,CAAE,qDAAqD,CAElE,kBAAkB,CACjB,UAAU,CAAE,sDAAsD,CAEnE,eAAe,CACd,SAAS,CAAE,IAAI,CACf,OAAO,CAAE,IAAI,CAYd,yCAA2C,CAC1C,qBAAqB,CACpB,OAAO,CAAC,iBAAiB",
+"sources": ["style-db.scss"],
+"names": [],
+"file": "style-db.css"
+}
