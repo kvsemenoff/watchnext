@@ -2,15 +2,44 @@
 	font-size: 14px;
 	background-color: #49494b;
 }
+.db-form-box{
+	width:320px;
+	margin: 0 auto;
+
+}
 .input_background1{
 	background: url("../img/man.png") no-repeat center left 15px #fff;
+	width: 280px !important;
+	margin-bottom:20px; 
 }
 .input_background2{
 	background: url("../img/call.png") no-repeat center left 15px #fff;
+	width: 280px !important;
+	margin-bottom:20px;
+	
 }
 .db-form-button{
-	font-size: 20px;
+	font-size: 14px;
 	padding: 13px;
+	width: 280px !important;
+}
+
+.section_db-zazak-view{
+	text-align: center;
+	background: url("../img/how_bg.jpg")no-repeat;
+	background-size:cover; 
+}
+.db-zakaz-h2{
+	font-size: 26px;
+	span{
+		font-family: "GothamProLight";
+	}
+}
+.db-zakaz-h2:before{
+	background: url("../img/")no-repeat center left;
+}
+.db-zakaz-h2:after{
+	background: url("../img/")no-repeat center right;
 }
 
 @media only screen and (min-width : 320px) {
@@ -25,6 +54,23 @@
 @media only screen and (min-width : 992px) {
 	.section_db-form-view{
 		padding:30px 0 !important;
+	}
+	.db-form-box{
+		width: unset;
+	}
+	.input_background1{
+		width: 305px !important;
+		margin-bottom:unset;
+
+	}
+	.input_background2{
+		width: 305px !important;
+		margin-bottom:unset;
+
+	}
+	.db-form-button{
+		font-size: 20px;
+		width: unset !important;
 	}
 }
 
