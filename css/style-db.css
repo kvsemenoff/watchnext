@@ -1,2 +1,70 @@
-.section_db-form-view{font-size:14px;background-color:#49494b}.db-form-box{width:320px;margin:0 auto}.input_background1{background:url("../img/man.png") no-repeat center left 15px #fff;width:280px !important;margin-bottom:20px}.input_background2{background:url("../img/call.png") no-repeat center left 15px #fff;width:280px !important;margin-bottom:20px}.db-form-button{font-size:14px;padding:13px;width:280px !important}.section_db-zazak-view{text-align:center;background:url("../img/how_bg.jpg") no-repeat;background-size:cover}.db-zakaz-h2{font-size:26px}.db-zakaz-h2 span{font-family:"GothamProLight"}.db-zakaz-h2:before{background:url("../img/") no-repeat center left}.db-zakaz-h2:after{background:url("../img/") no-repeat center right}@media only screen and (min-width: 992px){.section_db-form-view{padding:30px 0 !important}.db-form-box{width:unset}.input_background1{width:305px !important;margin-bottom:unset}.input_background2{width:305px !important;margin-bottom:unset}.db-form-button{font-size:20px;width:unset !important}}
+/* line 1, C:/OpenServer/domains/watch.loc/css/style-db.scss */
+.section_db-form-view {
+  font-size: 14px;
+  background-color: #49494b; }
+
+/* line 5, C:/OpenServer/domains/watch.loc/css/style-db.scss */
+.db-form-box {
+  width: 320px;
+  margin: 0 auto; }
+
+/* line 10, C:/OpenServer/domains/watch.loc/css/style-db.scss */
+.input_background1 {
+  background: url("../img/man.png") no-repeat center left 15px #fff;
+  width: 280px !important;
+  margin-bottom: 20px; }
+
+/* line 15, C:/OpenServer/domains/watch.loc/css/style-db.scss */
+.input_background2 {
+  background: url("../img/call.png") no-repeat center left 15px #fff;
+  width: 280px !important;
+  margin-bottom: 20px; }
+
+/* line 21, C:/OpenServer/domains/watch.loc/css/style-db.scss */
+.db-form-button {
+  font-size: 14px;
+  padding: 13px;
+  width: 280px !important; }
+
+/* line 27, C:/OpenServer/domains/watch.loc/css/style-db.scss */
+.section_db-zazak-view {
+  text-align: center;
+  background: url("../img/how_bg.jpg") no-repeat;
+  background-size: cover; }
+
+/* line 32, C:/OpenServer/domains/watch.loc/css/style-db.scss */
+.db-zakaz-h2 {
+  font-size: 26px; }
+  /* line 34, C:/OpenServer/domains/watch.loc/css/style-db.scss */
+  .db-zakaz-h2 span {
+    font-family: "GothamProLight"; }
+
+/* line 38, C:/OpenServer/domains/watch.loc/css/style-db.scss */
+.db-zakaz-h2:before {
+  background: url("../img/") no-repeat center left; }
+
+/* line 41, C:/OpenServer/domains/watch.loc/css/style-db.scss */
+.db-zakaz-h2:after {
+  background: url("../img/") no-repeat center right; }
+
+@media only screen and (min-width: 992px) {
+  /* line 55, C:/OpenServer/domains/watch.loc/css/style-db.scss */
+  .section_db-form-view {
+    padding: 30px 0 !important; }
+  /* line 58, C:/OpenServer/domains/watch.loc/css/style-db.scss */
+  .db-form-box {
+    width: unset; }
+  /* line 61, C:/OpenServer/domains/watch.loc/css/style-db.scss */
+  .input_background1 {
+    width: 305px !important;
+    margin-bottom: unset; }
+  /* line 66, C:/OpenServer/domains/watch.loc/css/style-db.scss */
+  .input_background2 {
+    width: 305px !important;
+    margin-bottom: unset; }
+  /* line 71, C:/OpenServer/domains/watch.loc/css/style-db.scss */
+  .db-form-button {
+    font-size: 20px;
+    width: unset !important; } }
+
 /*# sourceMappingURL=style-db.css.map */
