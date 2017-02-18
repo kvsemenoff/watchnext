@@ -17,6 +17,7 @@ $(document).ready(function() {
                 margin: 20
             },
             1170: {
+                items:3,
                 margin: 50,
             }
         }
