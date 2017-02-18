@@ -3,6 +3,7 @@ $(document).ready(function() {
         items:3,
         loop:true,
         navText:['<span class="dg-left"></span>','<span class="dg-right"></span>'],
+        center: true,
         responsive: {
             0: {
                 items: 1

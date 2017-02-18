@@ -2,6 +2,7 @@
 .owl-prev, .owl-next {
     display: block !important;
 }
+
 section.testimonials {
     padding-top: 50px;
     padding-bottom: 70px;
@@ -41,6 +42,9 @@ section.testimonials {
     &:last-child {
         margin-right: 0;
     }
+}
+.owl-item.center .testimonials__carousel-item{
+    background: #babab9;
 }
 .testimonials__item-name {
     color: #070707;

@@ -3,12 +3,12 @@
 .owl-prev, .owl-next {
   display: block !important; }
 
-/* line 5, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 6, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 section.testimonials {
   padding-top: 50px;
   padding-bottom: 70px; }
 
-/* line 9, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 10, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .testimonials__title {
   text-align: center;
   font-family: "GothamProBold", sans-serif;
@@ -16,16 +16,16 @@ section.testimonials {
   text-align: center;
   display: inline-block;
   margin-bottom: 45px; }
-  /* line 16, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 17, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .testimonials__title:before, .testimonials__title:after {
     content: none; }
 
-/* line 20, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 21, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .clients {
   font-weight: 300;
   font-family: "GothamProRegular", sans-serif; }
 
-/* line 24, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 25, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .testimonials__carousel {
   display: -webkit-flex;
   display: -moz-flex;
@@ -34,22 +34,26 @@ section.testimonials {
   display: flex;
   justify-content: space-between; }
 
-/* line 32, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 33, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .testimonials__carousel-header {
   text-align: center;
   margin-bottom: 30px; }
 
-/* line 36, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 37, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .testimonials__carousel-item {
   padding: 15px 20px 30px 20px;
   background: #fddc43;
   max-height: 440px;
   overflow: hidden; }
-  /* line 41, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 42, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .testimonials__carousel-item:last-child {
     margin-right: 0; }
 
-/* line 45, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 46, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+.owl-item.center .testimonials__carousel-item {
+  background: #babab9; }
+
+/* line 49, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .testimonials__item-name {
   color: #070707;
   font-family: "HelveticaNeueCyr-Bold";
@@ -57,7 +61,7 @@ section.testimonials {
   font-weight: 700;
   line-height: 30px; }
 
-/* line 52, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 56, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .testimonials__item-city {
   color: #020202;
   font-family: "HelveticaNeueCyr-Light";
@@ -65,7 +69,7 @@ section.testimonials {
   line-height: 30px;
   font-weight: 300; }
 
-/* line 59, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 63, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .testimonials__item-text {
   color: #060606;
   font-family: "GothamProLight";
@@ -76,18 +80,18 @@ section.testimonials {
   overflow: hidden;
   max-height: 200px; }
 
-/* line 69, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 73, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .testimonials__avatar {
   width: 100px;
   margin: auto;
   margin-bottom: 15px; }
-  /* line 73, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 77, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .testimonials__avatar img {
     display: block;
     margin: auto;
     max-width: 100px; }
 
-/* line 79, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 83, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .dg-left, .dg-right {
   position: absolute;
   top: 50%;
@@ -96,52 +100,52 @@ section.testimonials {
   height: 50px;
   display: none; }
 
-/* line 87, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 91, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .dg-left {
   background-image: url(/img/prev_btn.png);
   background-size: cover;
   left: -10px; }
 
-/* line 92, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 96, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .dg-right {
   background-image: url(/img/next_btn.png);
   background-size: cover;
   right: -10px; }
 
 @media only screen and (min-width: 480px) {
-  /* line 101, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 105, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .dg-left, .dg-right {
     display: block; } }
 
 @media only screen and (min-width: 992px) {
-  /* line 111, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 115, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .testimonials__title:before, .testimonials__title:after {
     content: '';
     position: absolute;
     width: 94px;
     height: 1px;
     background: #cececf; }
-  /* line 118, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 122, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .testimonials__title:before {
     left: -117px;
     top: 50%; }
-  /* line 122, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 126, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .testimonials__title:after {
     right: -117px;
     top: 50%; } }
 
 @media only screen and (min-width: 1170px) {
-  /* line 130, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 134, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .dg-left {
     background-image: url(/img/left_btn.png);
     background-size: cover;
     left: -60px; }
-  /* line 135, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 139, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .dg-right {
     background-image: url(/img/right_btn.png);
     background-size: cover;
     right: -60px; }
-  /* line 141, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 145, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .testimonials__title:before, .testimonials__title:after {
     width: 94px; } }
 
