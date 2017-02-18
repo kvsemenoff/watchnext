@@ -191,7 +191,9 @@ section.nabor {
     padding: 10px 95px;
     background: #d8d8d5;
 }
-
+.price__block {
+    margin-top: 20px;
+}
 .nabor__carousel .owl-item.center {
     .price__block {
         padding: 20px 50px;
@@ -264,6 +266,7 @@ section.nabor {
     .price__block {
         width: 100%;
         margin: auto;
+        margin-top: 20px;
     }
     a.nabor__moreinfo {
         width: 100%;
