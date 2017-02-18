@@ -252,9 +252,29 @@ section.nabor {
         width: 380px;
         margin: auto;
     }
+    .nabor__list {
+        width: 380px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
 
 @media only screen and (min-width : 768px) {
+    .price__block {
+        width: 100%;
+        margin: auto;
+    }
+    a.nabor__moreinfo {
+        width: 100%;
+        margin: auto;
+    }
+    .nabor__list {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
 }
 
 @media only screen and (min-width : 992px) {
@@ -294,20 +314,14 @@ section.nabor {
             top: 50%;
         }
     }
-    .nabor__carousel .owl-item.center {
-        .price__block {
-            padding: 20px 85px;
-        }
-    }
-    
 }
 @media only screen and (min-width : 1170px) {
-    .dg-left {
+    .testimonials__carousel .dg-left {
         background-image: url(/img/left_btn.png);
         background-size: cover;
         left: -60px;
     }
-    .dg-right {
+    .testimonials__carousel .dg-right {
         background-image: url(/img/right_btn.png);
         background-size: cover;
         right: -60px;
@@ -317,8 +331,12 @@ section.nabor {
             width: 94px;
         }
     }
-    
-    
+    .nabor__carousel .dg-left {
+        left: -60px;
+    }
+    .nabor__carousel .dg-right {
+        right: -60px;
+    }
     .nabor__title {
         &:before, &:after {
             width: 94px;
@@ -326,5 +344,10 @@ section.nabor {
     }
 }
 @media only screen and (min-width : 1248px) {
+    .nabor__carousel .owl-item.center {
+        .price__block {
+            padding: 20px 85px;
+        }
+    }
 }
 
