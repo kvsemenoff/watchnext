@@ -30,16 +30,39 @@
 	background-size:cover; 
 }
 .db-zakaz-h2{
+	position: relative;
 	font-size: 26px;
 	span{
 		font-family: "GothamProLight";
 	}
 }
 .db-zakaz-h2:before{
-	background: url("../img/")no-repeat center left;
+	background: #cececf;
+	position: absolute;
+	height:1px;
+	top: 0;
+	left: 0;
+	content: "";
+	width:94px;
 }
 .db-zakaz-h2:after{
-	background: url("../img/")no-repeat center right;
+	background: #cececf;
+	position: absolute;
+	height:1px;
+	top: 0;
+	right: 0;
+	content: "";
+	width:94px;
+}
+.db-zakaz-p{
+	color: #060606;
+	font-family: "GothamProLight";
+	font-size: 14px;
+	line-height: 18px;
+	span{
+		font-family:"GothamProBold";
+		text-transform: uppercase;
+	}
 }
 
 @media only screen and (min-width : 320px) {
