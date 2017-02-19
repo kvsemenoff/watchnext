@@ -9,6 +9,7 @@
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css" />
+	<link rel="stylesheet" href="libs/bxSlider/jquery.bxslider.css" />
 	<link rel="stylesheet" href="libs/wow/animate.css">
 	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
 
@@ -19,6 +20,7 @@
 <body>
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="libs/owl.carousel/owl.carousel.js"></script>
+	<script src="libs/bxSlider/jquery.bxslider.js"></script>
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 	<script src="libs/wow/wow.min.js"></script>
 	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
