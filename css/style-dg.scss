@@ -347,6 +347,63 @@ section.dostavka {
     text-align: center;
     margin-top: 20px;
 }
+
+/* Timer */
+.dd-sec, .dd-hours, .dd-min {
+    background: url(/img/timer_block.png) 0 0 no-repeat;
+    color: #262525;
+    font-family: "ImpactRegular";
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 39px;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 35px;
+    padding: 8px;
+}
+.dd-div {
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+    &:after {
+        content: '';
+        width: 10px;
+        height: 25px;
+        background: url(/img/timer_dots.png) 0 0 no-repeat;
+        position: absolute;
+        right: -22px;
+        top: 20%;
+    }
+    &:last-child {
+        &:after {
+            content: none;
+        }
+        margin-right: 0;
+    }
+}
+.dd-timer-title span {
+    height: 23px;
+    color: #fbf4f4;
+    font-family: "GothamProBold";
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+.time-txt {
+    color: #fef8f8;
+    font-family: "HelveticaNeueCyr-Roman";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.dd-timer-title {
+    margin-bottom: 30px;
+}
+.dd-timer-all-wrap {
+    max-width: 530px;
+    text-align: center;
+}
 @media only screen and (min-width : 320px) {
 }
 
