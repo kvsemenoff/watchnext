@@ -33,7 +33,7 @@
 	position: relative;
 	margin-top: 12px;
 	font-size: 31px;
-	margin-bottom: 43px;
+	margin-bottom: 48px;
 	text-align: center;
 	span{
 		font-family: "GothamProLight";
@@ -60,7 +60,7 @@
 }
 
 .section_db-garant-view{
-	background: url("../img/garanty_bg.jpg")no-repeat;
+	background: url("../img/garanty_bg.jpg")no-repeat ;
 	background-size: cover;
 }
 .db-garant-h2{
@@ -68,25 +68,28 @@
 }
 
 .db-garant-h2:before{
-	left: 370px !important;
+	left: 374px !important;
 }
 .db-garant-h2:after{
-	right: 370px !important;
+	right: 374px !important;
 }
 .db-garant-box-1{
 	max-width: 400px;
 	margin: 0 auto;
-
+	background: url("../img/ramka_white.png") no-repeat top 0px left 70px;
+	padding: 10px 0;
 	
 }
 .db-garant-one{
 	float:left;
-background: url("../img/ramka_white.png")no-repeat top -20px left;
+	padding-left: 12px;
 }
 
 
 .db-garant-two{
 	float:left;
+	margin: 15px 0 0 30px;
+
 	p{
 		color: #fdf8f8;
 		font-family: "GothamProLight";
@@ -98,9 +101,19 @@ background: url("../img/ramka_white.png")no-repeat top -20px left;
 			font-size: 28px;
 			line-height: 26px;
 			text-transform: uppercase;
+			display: inline-block;
+			padding-bottom: 11px;
 		}
+		
 	}
 }
+.db-garant-box-2{
+	background: url("../img/ramka_white.png") no-repeat top 0px left 70px;
+	padding: 10px 0;
+	margin-top: 35px;
+	margin-left: 15px;
+}
+
 
 @media only screen and (min-width : 320px) {
 }
