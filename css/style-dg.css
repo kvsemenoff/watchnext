@@ -546,24 +546,34 @@ section.dostavka {
 
 /* KATALOG */
 /* line 478, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+.katalog .row:nth-child(even) .katalog__item-block {
+  flex-direction: row-reverse; }
+
+/* line 481, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+.katalog .row:nth-child(even) .katalog__item-right {
+  margin-left: 0;
+  margin-right: 10px; }
+
+/* line 486, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .katalog__item {
   text-align: center;
   margin-bottom: 35px; }
 
-/* line 482, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 490, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .katalog__item-span {
   font-family: "GothamProLight"; }
 
-/* line 485, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 493, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .katalog__item-title {
   color: #030303;
   display: inline-block;
   position: relative;
   font-family: "GothamProBold";
   font-size: 26px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-top: 20px; }
 
-/* line 493, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 502, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .katalog__item-tdl {
   color: #060606;
   font-family: "GothamProBold";
@@ -572,16 +582,17 @@ section.dostavka {
   line-height: 12px;
   width: 40%; }
 
-/* line 501, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 510, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .katalog__item-functiontext {
   color: #060606;
   font-family: "GothamProBold";
   font-size: 12px;
   font-weight: 700;
   line-height: 12px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-bottom: 10px; }
 
-/* line 509, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 519, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .katalog__item-tdr, .katalog__item-text {
   color: #060606;
   font-family: "GothamProRegular";
@@ -589,41 +600,41 @@ section.dostavka {
   font-weight: 400;
   line-height: 12px; }
 
-/* line 517, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 527, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .katalog__item-desc tr:nth-child(odd) {
   background: #eaeae7; }
 
-/* line 521, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 531, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .katalog__item-imgwrap {
   width: 205px;
   height: 150px;
   display: inline-block;
   vertical-align: middle;
   border: 1px solid #a1a1a1; }
-  /* line 527, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 537, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .katalog__item-imgwrap img {
     display: block;
     max-width: 100%;
     max-height: 100%;
     margin: auto; }
 
-/* line 534, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 544, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .bx-wrapper {
   display: block !important;
   margin-left: 30px !important;
   margin-top: 30px !important; }
 
-/* line 539, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 549, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .bx-viewport {
   height: 300px !important; }
 
-/* line 542, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 552, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .bx-wrapper .bx-prev, .bx-wrapper .bx-next {
   height: 20px !important;
   width: 100% !important;
   display: block; }
 
-/* line 547, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 557, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .bx-wrapper .bx-controls-direction .bx-prev {
   background-color: #49494b;
   top: -9px;
@@ -631,7 +642,7 @@ section.dostavka {
   background-image: url(/img/arrow_top.png);
   background-position: center; }
 
-/* line 554, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 564, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .bx-wrapper .bx-controls-direction .bx-next {
   background-color: #d2d2d2;
   bottom: -25px;
@@ -639,15 +650,15 @@ section.dostavka {
   background-image: url(/img/arrow_bot.png);
   background-position: center; }
 
-/* line 561, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 571, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .katalog__item-tdl {
   padding-left: 15px; }
 
-/* line 564, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 574, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .katalog__item-tdr {
   padding-right: 20px; }
 
-/* line 567, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 577, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .katalog__item-block {
   display: -webkit-flex;
   display: -moz-flex;
@@ -656,136 +667,140 @@ section.dostavka {
   display: flex;
   justify-content: center; }
 
-/* line 575, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 585, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .katalog__item-right {
   margin-left: 10px; }
 
-/* line 578, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 588, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .katalog__item-functions {
   padding-left: 10px; }
 
-/* line 581, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 591, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .katalog__item-desc td {
   display: table-row;
   font-size: 10px; }
 
-/* line 585, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+/* line 595, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
 .katalog__item-desc {
   width: 100%; }
 
+/* line 598, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+.katalog__item-functions {
+  margin-top: 10px; }
+
 @media only screen and (min-width: 480px) {
-  /* line 592, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 605, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .dg-left, .dg-right {
     display: block; }
-  /* line 595, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 608, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .price__block {
     width: 380px;
     margin: auto; }
-  /* line 599, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 612, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   a.nabor__moreinfo {
     width: 380px;
     margin: auto; }
-  /* line 603, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 616, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .nabor__list {
     width: 380px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px; }
-  /* line 609, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 622, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .header__title {
     font-size: 24px; }
-  /* line 612, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 625, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .header__promo-text {
     font-size: 20px; }
-  /* line 615, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 628, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .header__promo-square {
     font-size: 20px; }
-  /* line 618, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 631, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .katalog__item-tdl {
     line-height: 16px; }
-  /* line 621, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 634, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .katalog__item-tdr, .katalog__item-text {
     line-height: 16px; }
-  /* line 624, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 637, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .katalog__item-desc td {
     display: table-cell; } }
 
 @media only screen and (min-width: 768px) {
-  /* line 630, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 643, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .price__block {
     width: 100%;
     margin: auto;
     margin-top: 20px; }
-  /* line 635, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 648, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   a.nabor__moreinfo {
     width: 100%;
     margin: auto; }
-  /* line 639, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 652, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .nabor__list {
     width: 100%;
     margin: auto;
     margin-bottom: 20px;
     margin-top: 20px; }
-  /* line 645, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 658, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .header__title {
     font-size: 28px; }
-  /* line 648, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 661, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .header__promo-text {
     font-size: 22px; }
-  /* line 651, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 664, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .header__promo-square {
     font-size: 24px; } }
 
 @media only screen and (min-width: 992px) {
-  /* line 658, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 671, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .testimonials__title:before, .testimonials__title:after {
     content: '';
     position: absolute;
     width: 94px;
     height: 1px;
     background: #cececf; }
-  /* line 665, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 678, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .testimonials__title:before {
     left: -117px;
     top: 50%; }
-  /* line 669, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 682, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .testimonials__title:after {
     right: -117px;
     top: 50%; }
-  /* line 677, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 690, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .nabor__title:before, .nabor__title:after {
     content: '';
     position: absolute;
     width: 94px;
     height: 1px;
     background: #cececf; }
-  /* line 684, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 697, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .nabor__title:before {
     left: -117px;
     top: 50%; }
-  /* line 688, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 701, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .nabor__title:after {
     right: -117px;
     top: 50%; }
-  /* line 695, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 708, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .dostavka__title:before, .dostavka__title:after {
     content: '';
     position: absolute;
     width: 94px;
     height: 1px;
     background: #cececf; }
-  /* line 702, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 715, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .dostavka__title:before {
     left: -117px;
     top: 50%; }
-  /* line 706, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 719, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .dostavka__title:after {
     right: -117px;
     top: 50%; }
-  /* line 711, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 724, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .delivery__header {
     left: 39%; }
-  /* line 715, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 728, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .kazakh__img-block:after {
     background: url("../img/dots.png") no-repeat;
     width: 104px;
@@ -794,94 +809,118 @@ section.dostavka {
     top: 65px;
     right: -65px;
     content: ""; }
-  /* line 726, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 739, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .last__block:after {
     content: none; }
-  /* line 730, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 743, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   section.kazakh {
     padding-top: 50px;
     padding-bottom: 60px; }
-  /* line 734, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 747, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .header__title {
     font-size: 39px; }
-  /* line 737, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 750, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .header__promo-text {
     font-size: 24px; }
-  /* line 740, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 753, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .header__promo-square {
     font-size: 30px; }
-  /* line 743, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 756, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .dd-sec, .dd-hours, .dd-min {
     width: 35px;
     font-size: 39px;
     line-height: 39px; }
-  /* line 748, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 761, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .header__timer-block {
     margin-top: 200px; }
-  /* line 751, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 764, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .header__promo-square {
     margin-top: 0; }
-  /* line 754, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 767, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .header-top {
     height: 600px; }
-  /* line 759, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
-  .katalog__item-title:before, .katalog__item-title:after {
-    content: '';
-    position: absolute;
-    width: 94px;
-    height: 1px;
-    background: #cececf; }
-  /* line 766, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
-  .katalog__item-title:before {
-    left: -117px;
-    top: 50%; }
-  /* line 770, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
-  .katalog__item-title:after {
-    right: -117px;
-    top: 50%; } }
+  /* line 771, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  .katalog__item-title {
+    margin-top: 40px; }
+    /* line 773, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+    .katalog__item-title:before, .katalog__item-title:after {
+      content: '';
+      position: absolute;
+      width: 94px;
+      height: 1px;
+      background: #cececf; }
+    /* line 780, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+    .katalog__item-title:before {
+      left: -117px;
+      top: 50%; }
+    /* line 784, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+    .katalog__item-title:after {
+      right: -117px;
+      top: 50%; }
+  /* line 789, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  .katalog__item-desc td {
+    font-size: 12px;
+    line-height: 22px; }
+  /* line 793, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  .katalog__item-functiontext {
+    line-height: 16px; } }
 
 @media only screen and (min-width: 1170px) {
-  /* line 777, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 798, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .testimonials__carousel .dg-left {
     background-image: url(/img/left_btn.png);
     background-size: cover;
     left: -60px; }
-  /* line 782, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 803, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .testimonials__carousel .dg-right {
     background-image: url(/img/right_btn.png);
     background-size: cover;
     right: -60px; }
-  /* line 788, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 809, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .testimonials__title:before, .testimonials__title:after {
     width: 94px; }
-  /* line 792, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 813, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .nabor__carousel .dg-left {
     left: -60px; }
-  /* line 795, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 816, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .nabor__carousel .dg-right {
     right: -60px; }
-  /* line 799, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 820, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .nabor__title:before, .nabor__title:after {
     width: 94px; }
-  /* line 804, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
-  .katalog__item-imgwrap {
-    width: 405px;
-    height: 350px; }
-  /* line 808, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 826, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .bx-wrapper {
     display: inline-block !important;
     vertical-align: middle;
-    margin-left: 10px !important; } }
+    margin-left: 10px !important; }
+  /* line 831, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  .katalog__item-imgwrap {
+    width: 305px;
+    height: 350px; }
+  /* line 835, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  .katalog__item-right {
+    width: 460px; }
+  /* line 838, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  .bx-wrapper {
+    margin-top: 0 !important; } }
 
 @media only screen and (min-width: 1248px) {
-  /* line 817, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 844, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .nabor__carousel .owl-item.center .price__block {
     padding: 20px 85px; }
-  /* line 821, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 848, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .header__promo-text {
     font-size: 26px; }
-  /* line 824, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  /* line 851, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
   .katalog__item-right {
-    width: 560px; } }
+    width: 560px; }
+  /* line 854, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  .katalog__item-imgwrap {
+    width: 405px;
+    height: 350px; }
+  /* line 858, C:/OpenServer/domains/watch.loc/css/style-dg.scss */
+  .katalog__item-desc td {
+    font-size: 12px;
+    line-height: 26px; } }
 
 /*# sourceMappingURL=style-dg.css.map */

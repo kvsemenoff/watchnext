@@ -26,11 +26,6 @@ $(document).ready(function() {
         mode: 'vertical',
         slideWidth: 150,
         minSlides: 3,
-        slideMargin: 10,
-        responsive: {
-            0: {
-                mode: 'horizontal';
-            }
-        }
+        slideMargin: 10
   });
 })
