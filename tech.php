@@ -12,7 +12,7 @@
     <div class="dd-timer-all-wrap" style="background: black">
         <div class="dd-timer">
             <div class="dd-timer-title">
-                <span>до кончания акции осталось</span>
+                <span>до окончания акции осталось</span>
             </div>
             <div class="dd-times">
                 <div class="dd-div">
