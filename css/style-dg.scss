@@ -404,6 +404,26 @@ section.dostavka {
     max-width: 530px;
     text-align: center;
 }
+
+/* Kazakh */
+.kazakh__item {
+    text-align: center;
+}
+.kazakh__img-block {
+    margin-bottom: 20px;
+    position: relative;  
+}
+.kazakh__text {
+    color: #060606;
+    font-family: "GothamProBold";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: auto;
+    max-width: 205px;
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -502,6 +522,26 @@ section.dostavka {
     }
     .delivery__header {
         left: 39%;
+    }
+    .kazakh__img-block {
+        &:after{
+            background: url("../img/dots.png")no-repeat;
+            width: 104px;
+            height: 5px;
+            position: absolute;
+            top: 65px;
+            right: -65px;
+            content: "";
+	    }
+    }
+    .last__block {
+         &:after {
+             content: none;
+        }
+    }
+    section.kazakh {
+        padding-top: 50px;
+        padding-bottom: 60px;
     }
 }
 @media only screen and (min-width : 1170px) {
