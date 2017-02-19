@@ -474,7 +474,15 @@ section.dostavka {
 }
 
 /* KATALOG */
-
+.katalog .row:nth-child(even) {
+    .katalog__item-block {
+        flex-direction: row-reverse;
+    }
+    .katalog__item-right {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+}
 .katalog__item {
     text-align: center;
     margin-bottom: 35px;
@@ -489,6 +497,7 @@ section.dostavka {
     font-family: "GothamProBold";
     font-size: 26px;
     text-transform: uppercase;
+    margin-top: 20px;
 }
 .katalog__item-tdl {
     color: #060606;
@@ -505,6 +514,7 @@ section.dostavka {
     font-weight: 700;
     line-height: 12px;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 .katalog__item-tdr, .katalog__item-text {
     color: #060606;
@@ -584,6 +594,9 @@ section.dostavka {
 }
 .katalog__item-desc {
     width: 100%;
+}
+.katalog__item-functions {
+    margin-top: 10px;
 }
 @media only screen and (min-width : 320px) {
 }
@@ -756,6 +769,7 @@ section.dostavka {
     }
     
     .katalog__item-title {
+        margin-top: 40px;
         &:before, &:after {
             content: '';
             position: absolute;
@@ -771,6 +785,13 @@ section.dostavka {
             right: -117px;
             top: 50%;
         }
+    }
+    .katalog__item-desc td {
+        font-size: 12px;
+        line-height: 22px;    
+    }
+    .katalog__item-functiontext {
+        line-height: 16px;
     }
 }
 @media only screen and (min-width : 1170px) {
@@ -801,16 +822,22 @@ section.dostavka {
         }
     }
     
-    .katalog__item-imgwrap {
-        width: 405px;
-        height: 350px;
-    }
+    
     .bx-wrapper {
         display: inline-block !important;
         vertical-align: middle;
         margin-left: 10px !important;
     }
-
+    .katalog__item-imgwrap {
+        width: 305px;
+        height: 350px;
+    }
+    .katalog__item-right {
+        width: 460px;
+    }
+    .bx-wrapper {
+        margin-top: 0 !important;
+    }
 }
 @media only screen and (min-width : 1248px) {
     .nabor__carousel .owl-item.center {
@@ -823,6 +850,14 @@ section.dostavka {
     }
     .katalog__item-right {
         width: 560px;
+    }
+    .katalog__item-imgwrap {
+        width: 405px;
+        height: 350px;
+    }
+    .katalog__item-desc td {
+        font-size: 12px;
+        line-height: 26px;    
     }
 }
 
