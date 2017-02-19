@@ -34,6 +34,7 @@
 	margin-top: 12px;
 	font-size: 31px;
 	margin-bottom: 43px;
+	text-align: center;
 	span{
 		font-family: "GothamProLight";
 	}
@@ -58,6 +59,48 @@
 	position: relative;
 }
 
+.section_db-garant-view{
+	background: url("../img/garanty_bg.jpg")no-repeat;
+	background-size: cover;
+}
+.db-garant-h2{
+	color:#fff;
+}
+
+.db-garant-h2:before{
+	left: 370px !important;
+}
+.db-garant-h2:after{
+	right: 370px !important;
+}
+.db-garant-box-1{
+	max-width: 400px;
+	margin: 0 auto;
+	background: url("/img/ramka.png") no-repeat center left #fff;
+	
+}
+.db-garant-one{
+	float:left;
+	
+
+}
+
+.db-garant-two{
+	float:left;
+	p{
+		color: #fdf8f8;
+		font-family: "GothamProLight";
+		font-size: 16px;
+		line-height: 26px;
+		span{
+			color: #f7f1f1;
+			font-family: "HelveticaNeueCyr-Roman";
+			font-size: 28px;
+			line-height: 26px;
+			text-transform: uppercase;
+		}
+	}
+}
 
 @media only screen and (min-width : 320px) {
 }
