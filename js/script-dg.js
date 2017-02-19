@@ -22,5 +22,15 @@ $(document).ready(function() {
             }
         }
     });
-    
+    $('.bxslider').bxSlider({
+        mode: 'vertical',
+        slideWidth: 150,
+        minSlides: 3,
+        slideMargin: 10,
+        responsive: {
+            0: {
+                mode: 'horizontal';
+            }
+        }
+  });
 })
