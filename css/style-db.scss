@@ -22,11 +22,11 @@
 	display: none;
 }
 .db-section-footer{
-font-size:15px;
-line-height:26px;
-color: #070707;
-font-family: "GothamProLight";
-text-align: center;
+	font-size:15px;
+	line-height:26px;
+	color: #070707;
+	font-family: "GothamProLight";
+	text-align: center;
 }
 
 .section_db-form-view{
@@ -157,13 +157,13 @@ text-align: center;
 	max-width: 320px;
 	margin:0 auto;
 	.db-close{
-	position: absolute;
-	top: 4px;
-    right: 8px;
-	
-	display: inline-block;
-	cursor:pointer;
-	font-size: 40px;
+		position: absolute;
+		top: 4px;
+		right: 8px;
+
+		display: inline-block;
+		cursor:pointer;
+		font-size: 40px;
 	}
 	h2{
 		font-size: 16px;
@@ -182,25 +182,90 @@ text-align: center;
 	padding: 150px 0;
 }
 .db-spasibo{
-	    border: 2px solid black;
-    text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
-    font-size: 30px;
-    border-radius: 10px;
-    font-family: "HelveticaNeueCyr-Roman";
+	border: 2px solid black;
+	text-align: center;
+	max-width: 600px;
+	margin: 0 auto;
+	font-size: 30px;
+	border-radius: 10px;
+	font-family: "HelveticaNeueCyr-Roman";
 }
 .db-spasibo-a{
 	margin-top: 20px;
 	display: block;
-    text-align: center;
-    font-size: 20px;
-    font-family: "HelveticaNeueCyr-Roman";
-    color: #000;
-    text-decoration: underline;
+	text-align: center;
+	font-size: 20px;
+	font-family: "HelveticaNeueCyr-Roman";
+	color: #000;
+	text-decoration: underline;
+}
+.db-buy-box{
+	width: 250px;
+	margin: 0 auto;
+	margin-top: 42px;
+	margin-bottom: 19px;
+}
+
+.db-buy-one{
+
+	background-color: #babab9;
+	padding: 10px 61px;
+	color: #49494b;
+	font-family: "GothamProBold";
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	.db-seria-span{
+font-size: 15px;
+text-decoration: line-through;
+	}
+	span{
+		text-decoration: line-through;
+		font-size: 26px;
+	}
+}
+.db-buy-two{
+	background-color: #49494b;
+	padding: 10px 61px;
+	color: #49494b;
+	font-family: "GothamProBold";
+	text-transform: uppercase;
+	color:#fff;
+	font-size: 15px;
+	margin-bottom: 20px;
+	span{
+		font-size: 26px;
+	}
+}
+.db-buy-three{
+	input[type="submit"]{
+		padding: 10px 61px !important;
+		// vertical-align: middle;
+		// margin-top: -13px;
+		color: #030303;
+		font-size: 26px;
+		width: 250px;
+	}
 }
 
 
+.db-seria{
+	margin: 15px 0 0 24px !important;
+	text-align: center;
+	span{
+		color:#000 !important;
+		font-size: 20px !important;
+		line-height: 26px;
+	}
+	p{
+		color:#000;
+		font-size: 16px !important;
+		line-height: 26px;
+	}
+}
+.db-seria-one{
+	margin: 0 auto;
+	width: 120px;
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -211,31 +276,52 @@ text-align: center;
 }
 
 @media only screen and (min-width : 992px) {
+	.db-seria{
+		text-align: left;
+	}
+	.db-buy-box{
+		width: 715px;
+	}
+	.db-buy-one{
+		display: inline-block;
+		margin-bottom: unset;
+	}
+	.db-buy-two{
+		display: inline-block;
+		margin-bottom: unset;
+	}
+	.db-buy-three{
+		display: inline-block;
+		input[type="submit"]{
+			width: unset;
+		}
+	}
+
 	.db-popap{
-	padding: 50px;
-	text-align: center;
-	position: relative;
-	max-width: unset;
-	.db-close{
-	position: absolute;
-	top: 16px;
-    right: 19px;
-	
-	display: inline-block;
-	cursor:pointer;
-	font-size: 40px;
+		padding: 50px;
+		text-align: center;
+		position: relative;
+		max-width: unset;
+		.db-close{
+			position: absolute;
+			top: 16px;
+			right: 19px;
+
+			display: inline-block;
+			cursor:pointer;
+			font-size: 40px;
+		}
+		h2{
+			font-size: 20px;
+			padding-bottom: 40px;
+		}
+		input{
+			width:300px !important;
+			padding-top: 10px;
+			margin: 0 auto;
+			display: block;
+		}
 	}
-	h2{
-		font-size: 20px;
-		padding-bottom: 40px;
-	}
-	input{
-		width:300px !important;
-		padding-top: 10px;
-		margin: 0 auto;
-		display: block;
-	}
-}
 
 	.db-garant-two{
 		float:left;
@@ -251,19 +337,18 @@ text-align: center;
 	.db-garant-box-1{
 		max-width: 400px;
 		margin: 0 auto;
-		background: url("../img/ramka_white.png") no-repeat top 0px left 70px;
 		padding: 10px 0;
 
 	}
 	.db-garant-box-2{
-		background: url("../img/ramka_white.png") no-repeat top 0px left 70px;
+		
 		padding: 10px 0;
 		margin-top: 35px;
 		margin-left: 15px;
 		max-width: unset;
 	}
 	.db-garant-box-3{
-		background: url("../img/ramka_white.png") no-repeat top 0px left 70px;
+		
 		padding: 10px 0;
 		margin-top: 46px;
 		margin-left: 10px;
@@ -298,9 +383,33 @@ text-align: center;
 		font-size: 20px;
 		width: unset !important;
 	}
+	.db-seria-one{
+		margin-left: 70px;
+	}
 }
 
 @media only screen and (min-width : 1248px) {
+	.db-seria-one{
+		width: unset;
+		margin-left: unset;
+	}
+	.db-garant-box-1{
+
+		background: url("../img/ramka_white.png") no-repeat top 0px left 70px;
+
+
+	}
+	.db-garant-box-2{
+		background: url("../img/ramka_white.png") no-repeat top 0px left 70px;
+		
+	}
+	.db-garant-box-3{
+		background: url("../img/ramka_white.png") no-repeat top 0px left 70px;
+		
+	}
+	.db-seria-box{
+		background: url("../img/ramka.png") no-repeat top 0px left 70px !important;
+	}
 	.db-zakaz-h2:before{
 		background: #cececf;
 		position: absolute;
