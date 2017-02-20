@@ -2,7 +2,7 @@
 	<div class=" container">
 		<div class="row">
 			<div class="db-form-box">
-				<form action="#" method="post">
+				<form  method="post" action="#" class="js-submit">
 					<div class="col-md-4">
 						<input type="text" placeholder="Введите ваше имя" name="uname" class="input__view input_background1">
 					</div>
