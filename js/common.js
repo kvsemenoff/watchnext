@@ -46,7 +46,7 @@ $(document).ready(function(){
 
   function cleanTnanks(form){
     $('.js-window').hide();
-    // $('a[href=#js-form2]').trigger('click');
+    // $('a[href=#js-form1]').trigger('click');
     location = "thanks.php";
   };
 
