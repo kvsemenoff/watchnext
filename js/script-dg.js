@@ -28,4 +28,93 @@ $(document).ready(function() {
         minSlides: 3,
         slideMargin: 10
   });
+    $('.js-click1 a').click(function(evt) {   
+      evt.preventDefault();    
+      var imgPath = $(this).attr('href'); 
+
+      var oldImage = $('.katalog__item-imgwrap1 img');         
+
+      var newImage = $('<img src="' + imgPath +'">');
+
+      newImage.hide();     
+      $('.katalog__item-imgwrap1').prepend(newImage);     
+      newImage.fadeIn(300);    
+
+      oldImage.fadeOut(200,function(){
+       $(this).remove();
+    });    
+    });   
+    $('.js-click1 a:first').click();
+
+     $('.js-click2 a').click(function(evt) {   
+       evt.preventDefault();    
+       var imgPath = $(this).attr('href'); 
+
+       var oldImage = $('.katalog__item-imgwrap2 img');         
+
+       var newImage = $('<img src="' + imgPath +'">');
+
+       newImage.hide();     
+       $('.katalog__item-imgwrap2').prepend(newImage);     
+       newImage.fadeIn(300);    
+
+       oldImage.fadeOut(200,function(){
+        $(this).remove();
+     });    
+     });   
+     $('.js-click2 a:first').click();
+
+     $('.js-click3 a').click(function(evt) {   
+       evt.preventDefault();    
+       var imgPath = $(this).attr('href'); 
+
+       var oldImage = $('.katalog__item-imgwrap3 img');         
+
+       var newImage = $('<img src="' + imgPath +'">');
+
+       newImage.hide();     
+       $('.katalog__item-imgwrap3').prepend(newImage);     
+       newImage.fadeIn(300);    
+
+       oldImage.fadeOut(200,function(){
+        $(this).remove();
+     });    
+     });   
+     $('.js-click3 a:first').click();
+    
+    $('.js-click4 a').click(function(evt) {   
+       evt.preventDefault();    
+       var imgPath = $(this).attr('href'); 
+
+       var oldImage = $('.katalog__item-imgwrap4 img');         
+
+       var newImage = $('<img src="' + imgPath +'">');
+
+       newImage.hide();     
+       $('.katalog__item-imgwrap4').prepend(newImage);     
+       newImage.fadeIn(300);    
+
+       oldImage.fadeOut(200,function(){
+        $(this).remove();
+     });    
+     });   
+     $('.js-click4 a:first').click();
+    
+    $('.js-click5 a').click(function(evt) {   
+       evt.preventDefault();    
+       var imgPath = $(this).attr('href'); 
+
+       var oldImage = $('.katalog__item-imgwrap5 img');         
+
+       var newImage = $('<img src="' + imgPath +'">');
+
+       newImage.hide();     
+       $('.katalog__item-imgwrap5').prepend(newImage);     
+       newImage.fadeIn(300);    
+
+       oldImage.fadeOut(200,function(){
+        $(this).remove();
+     });    
+     });   
+     $('.js-click5 a:first').click();
 })
