@@ -1,3 +1,26 @@
+
+.mask{
+	position: fixed;
+	background: #000;
+	top: 0;
+	left: 0;
+	opacity: 0.8;
+	display: block;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	display:none;
+}
+#js-form1{
+	z-index: 1000;
+	position: absolute;
+	top:0;
+	left: 0;
+	background: #fff;
+	padding: 10px;
+	text-align: center;
+	display: none;
+}
 .db-section-footer{
 font-size:15px;
 line-height:26px;
@@ -127,6 +150,38 @@ text-align: center;
 	margin: 0 auto;
 }
 
+.db-popap{
+	
+	text-align: center;
+	position: relative;
+	max-width: 320px;
+	margin:0 auto;
+	.db-close{
+	position: absolute;
+	top: 4px;
+    right: 8px;
+	
+	display: inline-block;
+	cursor:pointer;
+	font-size: 40px;
+	}
+	h2{
+		font-size: 16px;
+		padding-bottom: 20px;
+		padding-top: 10px;
+	}
+	input{
+		padding-top: 10px;
+		margin: 0 auto;
+		display: block;
+		width: 250px !important;
+
+	}
+}
+.db-spasibo{
+	
+}
+
 
 @media only screen and (min-width : 320px) {
 }
@@ -138,6 +193,32 @@ text-align: center;
 }
 
 @media only screen and (min-width : 992px) {
+	.db-popap{
+	padding: 50px;
+	text-align: center;
+	position: relative;
+	max-width: unset;
+	.db-close{
+	position: absolute;
+	top: 16px;
+    right: 19px;
+	
+	display: inline-block;
+	cursor:pointer;
+	font-size: 40px;
+	}
+	h2{
+		font-size: 20px;
+		padding-bottom: 40px;
+	}
+	input{
+		width:300px !important;
+		padding-top: 10px;
+		margin: 0 auto;
+		display: block;
+	}
+}
+
 	.db-garant-two{
 		float:left;
 	}
