@@ -18,6 +18,8 @@
 		<form action="#" method="post" class="js-submit">
 			<input type="text" placeholder="Введите ваше имя" name="uname" class="input__view input_background1"><br>
 			<input type="text" placeholder="Введите ваш телефон" name="phone" class="input__view input_background2 js-mask"><br>
+			<input type="hidden" value="12900тг" name="price">
+			<input type="hidden" value="Watch" name="tovar">
 			<input type="submit" name="submit" value="Заказать прямо сечас" class="button-1 db-form-button">
 		</form>
 	</div>

@@ -49,6 +49,8 @@ h2{
 	padding-left: 50px;
 	height: 52px;
 }
+input[type="text"]::-webkit-input-placeholder { color: #060606; }    
+input[type="text"]::-moz-placeholder { color: #060606; }
 
 
 
