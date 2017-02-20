@@ -1,2 +1,413 @@
-.mask{position:fixed;background:#000;top:0;left:0;opacity:0.8;display:block;width:100%;height:100%;z-index:999;display:none}#js-form1{z-index:1000;position:fixed;top:0;left:0;background:#fff;padding:10px;text-align:center;display:none}.db-section-footer{font-size:15px;line-height:26px;color:#070707;font-family:"GothamProLight";text-align:center}.section_db-form-view{font-size:14px;background-color:#49494b}.db-form-box{width:320px;margin:0 auto}.input_background1{background:url("../img/man.png") no-repeat center left 15px #fff;width:280px !important;margin-bottom:20px}.input_background2{background:url("../img/call.png") no-repeat center left 15px #fff;width:280px !important;margin-bottom:20px}.db-form-button{font-size:14px;padding:13px;width:280px !important}.section_db-zazak-view{text-align:center;background:url("../img/how_bg.jpg") no-repeat;background-size:cover}.db-zakaz-h2{position:relative;margin-top:12px;font-size:31px;margin-bottom:48px;text-align:center}.db-zakaz-h2 span{font-family:"GothamProLight"}.db-zakaz-p{position:relative;color:#060606;font-family:"GothamProLight";font-size:14px;line-height:18px;margin-top:8px;padding-bottom:15px}.db-zakaz-p span{font-family:"GothamProBold";text-transform:uppercase;display:inline-block;padding-bottom:10px}.db-zakaz-img{position:relative}.section_db-garant-view{background:url("../img/garanty_bg.jpg") no-repeat;background-size:cover;text-align:center}.db-garant-h2{color:#fff}.db-garant-h2:before{left:374px !important}.db-garant-h2:after{right:374px !important}.db-garant-box-1{max-width:400px;margin:0 auto;padding:10px 0}.db-garant-one{padding-left:12px}.db-garant-two{margin:15px 0 0 30px}.db-garant-two p{color:#fdf8f8;font-family:"GothamProLight";font-size:16px;line-height:26px}.db-garant-two p span{color:#f7f1f1;font-family:"HelveticaNeueCyr-Roman";font-size:28px;line-height:26px;text-transform:uppercase;display:inline-block;padding-bottom:11px}.db-garant-box-2{padding:10px 0;margin-top:35px;max-width:400px;margin:0 auto}.db-garant-box-3{padding:10px 0;margin-top:46px;max-width:400px;margin:0 auto}.db-popap{padding:20px;text-align:center;position:relative;max-width:320px;margin:0 auto}.db-popap .db-close{position:absolute;top:4px;right:8px;display:inline-block;cursor:pointer;font-size:40px}.db-popap h2{font-size:16px;padding-bottom:20px;padding-top:10px}.db-popap input{padding-top:10px;margin:0 auto;display:block;width:250px !important}.db-thanks-section{padding:150px 0}.db-spasibo{border:2px solid black;text-align:center;max-width:600px;margin:0 auto;font-size:30px;border-radius:10px;font-family:"HelveticaNeueCyr-Roman"}.db-spasibo-a{margin-top:20px;display:block;text-align:center;font-size:20px;font-family:"HelveticaNeueCyr-Roman";color:#000;text-decoration:underline}.db-buy-box{width:250px;margin:0 auto;margin-top:42px;margin-bottom:19px}.db-buy-one{background-color:#babab9;padding:10px 61px;color:#49494b;font-family:"GothamProBold";text-transform:uppercase;margin-bottom:20px}.db-buy-one .db-seria-span{font-size:15px;text-decoration:line-through}.db-buy-one span{text-decoration:line-through;font-size:26px}.db-buy-two{background-color:#49494b;padding:10px 61px;color:#49494b;font-family:"GothamProBold";text-transform:uppercase;color:#fff;font-size:15px;margin-bottom:20px}.db-buy-two span{font-size:26px}.db-buy-three input[type="submit"]{padding:10px 61px !important;color:#030303;font-size:26px;width:250px}.db-seria{margin:15px 0 0 18px !important;text-align:center}.db-seria span{color:#000 !important;font-size:20px !important;line-height:26px}.db-seria p{color:#000;font-size:16px !important;line-height:26px}.db-seria-one{margin:0 auto;width:120px}@media only screen and (min-width: 992px){.db-seria{text-align:left}.db-buy-box{width:715px}.db-buy-one{display:inline-block;margin-bottom:unset}.db-buy-two{display:inline-block;margin-bottom:unset}.db-buy-three{display:inline-block}.db-buy-three input[type="submit"]{width:unset}.db-popap{padding:50px;text-align:center;position:relative;max-width:unset}.db-popap .db-close{position:absolute;top:16px;right:19px;display:inline-block;cursor:pointer;font-size:40px}.db-popap h2{font-size:20px;padding-bottom:40px}.db-popap input{width:300px !important;padding-top:10px;margin:0 auto;display:block}.db-garant-two{float:left}.section_db-garant-view{text-align:unset}.db-garant-one{float:left}.db-garant-box-1{max-width:400px;margin:0 auto;padding:10px 0}.db-garant-box-2{padding:10px 0;margin-top:35px;margin-left:15px;max-width:unset}.db-garant-box-3{padding:10px 0;margin-top:46px;margin-left:10px;max-width:unset}.db-zakaz-img:after{background:url("../img/dots.png") no-repeat;width:104px;height:5px;position:absolute;top:65px;right:-70px;content:""}.section_db-form-view{padding:30px 0 !important}.db-form-box{width:unset}.input_background1{width:305px !important;margin-bottom:unset}.input_background2{width:305px !important;margin-bottom:unset}.db-form-button{font-size:20px;width:unset !important}.db-seria-one{margin-left:70px}}@media only screen and (min-width: 1248px){.db-seria-one{width:unset;margin-left:unset}.db-garant-box-1{background:url("../img/ramka_white.png") no-repeat top 0px left 70px}.db-garant-box-2{background:url("../img/ramka_white.png") no-repeat top 0px left 70px}.db-garant-box-3{background:url("../img/ramka_white.png") no-repeat top 0px left 70px}.db-seria-box{background:url("../img/ramka.png") no-repeat top 0px left 70px !important}.db-zakaz-h2:before{background:#cececf;position:absolute;height:1px;top:20px;left:265px;content:"";width:94px}.db-zakaz-h2:after{background:#cececf;position:absolute;height:1px;top:20px;right:265px;content:"";width:94px}}
+/* line 2, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.mask {
+  position: fixed;
+  background: #000;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: none; }
+
+/* line 14, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+#js-form1 {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+  display: none; }
+
+/* line 24, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.db-section-footer {
+  font-size: 15px;
+  line-height: 26px;
+  color: #070707;
+  font-family: "GothamProLight";
+  text-align: center; }
+
+/* line 32, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.section_db-form-view {
+  font-size: 14px;
+  background-color: #49494b; }
+
+/* line 36, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.db-form-box {
+  width: 320px;
+  margin: 0 auto; }
+
+/* line 41, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.input_background1 {
+  background: url("../img/man.png") no-repeat center left 15px #fff;
+  width: 280px !important;
+  margin-bottom: 20px; }
+
+/* line 46, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.input_background2 {
+  background: url("../img/call.png") no-repeat center left 15px #fff;
+  width: 280px !important;
+  margin-bottom: 20px; }
+
+/* line 52, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.db-form-button {
+  font-size: 14px;
+  padding: 13px;
+  width: 280px !important; }
+
+/* line 58, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.section_db-zazak-view {
+  text-align: center;
+  background: url("../img/how_bg.jpg") no-repeat;
+  background-size: cover; }
+
+/* line 63, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.db-zakaz-h2 {
+  position: relative;
+  margin-top: 12px;
+  font-size: 31px;
+  margin-bottom: 48px;
+  text-align: center; }
+  /* line 69, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-zakaz-h2 span {
+    font-family: "GothamProLight"; }
+
+/* line 74, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.db-zakaz-p {
+  position: relative;
+  color: #060606;
+  font-family: "GothamProLight";
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 8px;
+  padding-bottom: 15px; }
+  /* line 82, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-zakaz-p span {
+    font-family: "GothamProBold";
+    text-transform: uppercase;
+    display: inline-block;
+    padding-bottom: 10px; }
+
+/* line 89, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.db-zakaz-img {
+  position: relative; }
+
+/* line 93, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.section_db-garant-view {
+  background: url("../img/garanty_bg.jpg") no-repeat;
+  background-size: cover;
+  text-align: center; }
+
+/* line 98, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.db-garant-h2 {
+  color: #fff; }
+
+/* line 102, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.db-garant-h2:before {
+  left: 374px !important; }
+
+/* line 105, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.db-garant-h2:after {
+  right: 374px !important; }
+
+/* line 108, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.db-garant-box-1 {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px 0; }
+
+/* line 114, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.db-garant-one {
+  padding-left: 12px; }
+
+/* line 120, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.db-garant-two {
+  margin: 15px 0 0 30px; }
+  /* line 123, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-garant-two p {
+    color: #fdf8f8;
+    font-family: "GothamProLight";
+    font-size: 16px;
+    line-height: 26px; }
+    /* line 128, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+    .db-garant-two p span {
+      color: #f7f1f1;
+      font-family: "HelveticaNeueCyr-Roman";
+      font-size: 28px;
+      line-height: 26px;
+      text-transform: uppercase;
+      display: inline-block;
+      padding-bottom: 11px; }
+
+/* line 140, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.db-garant-box-2 {
+  padding: 10px 0;
+  margin-top: 35px;
+  max-width: 400px;
+  margin: 0 auto; }
+
+/* line 146, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.db-garant-box-3 {
+  padding: 10px 0;
+  margin-top: 46px;
+  max-width: 400px;
+  margin: 0 auto; }
+
+/* line 153, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.db-popap {
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  max-width: 320px;
+  margin: 0 auto; }
+  /* line 159, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-popap .db-close {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 40px; }
+  /* line 168, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-popap h2 {
+    font-size: 16px;
+    padding-bottom: 20px;
+    padding-top: 10px; }
+  /* line 173, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-popap input {
+    padding-top: 10px;
+    margin: 0 auto;
+    display: block;
+    width: 250px !important; }
+
+/* line 181, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.db-thanks-section {
+  padding: 150px 0; }
+
+/* line 184, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.db-spasibo {
+  border: 2px solid black;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 30px;
+  border-radius: 10px;
+  font-family: "HelveticaNeueCyr-Roman"; }
+
+/* line 193, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.db-spasibo-a {
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  font-family: "HelveticaNeueCyr-Roman";
+  color: #000;
+  text-decoration: underline; }
+
+/* line 202, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.db-buy-box {
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 42px;
+  margin-bottom: 19px; }
+
+/* line 209, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.db-buy-one {
+  background-color: #babab9;
+  padding: 10px 61px;
+  color: #49494b;
+  font-family: "GothamProBold";
+  text-transform: uppercase;
+  margin-bottom: 20px; }
+  /* line 217, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-buy-one .db-seria-span {
+    font-size: 15px;
+    text-decoration: line-through; }
+  /* line 221, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-buy-one span {
+    text-decoration: line-through;
+    font-size: 26px; }
+
+/* line 226, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.db-buy-two {
+  background-color: #49494b;
+  padding: 10px 61px;
+  color: #49494b;
+  font-family: "GothamProBold";
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 20px; }
+  /* line 235, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-buy-two span {
+    font-size: 26px; }
+
+/* line 240, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.db-buy-three input[type="submit"] {
+  padding: 10px 61px !important;
+  color: #030303;
+  font-size: 26px;
+  width: 250px; }
+
+/* line 251, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.db-seria {
+  margin: 15px 0 0 18px !important;
+  text-align: center; }
+  /* line 254, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-seria span {
+    color: #000 !important;
+    font-size: 20px !important;
+    line-height: 26px; }
+  /* line 259, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-seria p {
+    color: #000;
+    font-size: 16px !important;
+    line-height: 26px; }
+
+/* line 265, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+.db-seria-one {
+  margin: 0 auto;
+  width: 120px; }
+
+@media only screen and (min-width: 992px) {
+  /* line 279, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-seria {
+    text-align: left; }
+  /* line 282, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-buy-box {
+    width: 715px; }
+  /* line 285, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-buy-one {
+    display: inline-block;
+    margin-bottom: unset; }
+  /* line 289, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-buy-two {
+    display: inline-block;
+    margin-bottom: unset; }
+  /* line 293, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-buy-three {
+    display: inline-block; }
+    /* line 295, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+    .db-buy-three input[type="submit"] {
+      width: unset; }
+  /* line 300, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-popap {
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    max-width: unset; }
+    /* line 305, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+    .db-popap .db-close {
+      position: absolute;
+      top: 16px;
+      right: 19px;
+      display: inline-block;
+      cursor: pointer;
+      font-size: 40px; }
+    /* line 314, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+    .db-popap h2 {
+      font-size: 20px;
+      padding-bottom: 40px; }
+    /* line 318, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+    .db-popap input {
+      width: 300px !important;
+      padding-top: 10px;
+      margin: 0 auto;
+      display: block; }
+  /* line 326, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-garant-two {
+    float: left; }
+  /* line 329, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .section_db-garant-view {
+    text-align: unset; }
+  /* line 333, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-garant-one {
+    float: left; }
+  /* line 337, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-garant-box-1 {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px 0; }
+  /* line 343, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-garant-box-2 {
+    padding: 10px 0;
+    margin-top: 35px;
+    margin-left: 15px;
+    max-width: unset; }
+  /* line 350, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-garant-box-3 {
+    padding: 10px 0;
+    margin-top: 46px;
+    margin-left: 10px;
+    max-width: unset; }
+  /* line 357, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-zakaz-img:after {
+    background: url("../img/dots.png") no-repeat;
+    width: 104px;
+    height: 5px;
+    position: absolute;
+    top: 65px;
+    right: -70px;
+    content: ""; }
+  /* line 366, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .section_db-form-view {
+    padding: 30px 0 !important; }
+  /* line 369, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-form-box {
+    width: unset; }
+  /* line 372, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .input_background1 {
+    width: 305px !important;
+    margin-bottom: unset; }
+  /* line 377, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .input_background2 {
+    width: 305px !important;
+    margin-bottom: unset; }
+  /* line 382, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-form-button {
+    font-size: 20px;
+    width: unset !important; }
+  /* line 386, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-seria-one {
+    margin-left: 70px; } }
+
+@media only screen and (min-width: 1248px) {
+  /* line 392, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-seria-one {
+    width: unset;
+    margin-left: unset; }
+  /* line 396, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-garant-box-1 {
+    background: url("../img/ramka_white.png") no-repeat top 0px left 70px; }
+  /* line 402, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-garant-box-2 {
+    background: url("../img/ramka_white.png") no-repeat top 0px left 70px; }
+  /* line 406, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-garant-box-3 {
+    background: url("../img/ramka_white.png") no-repeat top 0px left 70px; }
+  /* line 410, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-seria-box {
+    background: url("../img/ramka.png") no-repeat top 0px left 70px !important; }
+  /* line 413, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-zakaz-h2:before {
+    background: #cececf;
+    position: absolute;
+    height: 1px;
+    top: 20px;
+    left: 265px;
+    content: "";
+    width: 94px; }
+  /* line 422, ../../OpenServer/domains/watchnext.loc/css/style-db.scss */
+  .db-zakaz-h2:after {
+    background: #cececf;
+    position: absolute;
+    height: 1px;
+    top: 20px;
+    right: 265px;
+    content: "";
+    width: 94px; } }
+
 /*# sourceMappingURL=style-db.css.map */

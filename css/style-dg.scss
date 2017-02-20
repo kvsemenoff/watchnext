@@ -556,6 +556,7 @@ section.katalog {
     height: 20px !important;
     width: 100% !important;
     display: block;
+    z-index: 10 !important;
 }
 .bx-wrapper .bx-controls-direction .bx-prev {
     background-color: #49494b;
@@ -956,6 +957,7 @@ section.buy {
     .katalog__item-imgwrap {
         width: 305px;
         height: 350px;
+        overflow: hidden;
     }
     .katalog__item-right {
         width: 460px;

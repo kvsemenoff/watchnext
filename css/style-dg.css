@@ -631,9 +631,10 @@ section.katalog {
 .bx-wrapper .bx-prev, .bx-wrapper .bx-next {
   height: 20px !important;
   width: 100% !important;
-  display: block; }
+  display: block;
+  z-index: 10 !important; }
 
-/* line 560, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 561, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .bx-wrapper .bx-controls-direction .bx-prev {
   background-color: #49494b;
   top: -9px;
@@ -641,7 +642,7 @@ section.katalog {
   background-image: url(/img/arrow_top.png);
   background-position: center; }
 
-/* line 567, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 568, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .bx-wrapper .bx-controls-direction .bx-next {
   background-color: #d2d2d2;
   bottom: -25px;
@@ -649,15 +650,15 @@ section.katalog {
   background-image: url(/img/arrow_bot.png);
   background-position: center; }
 
-/* line 574, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 575, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .katalog__item-tdl {
   padding-left: 15px; }
 
-/* line 577, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 578, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .katalog__item-tdr {
   padding-right: 20px; }
 
-/* line 580, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 581, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .katalog__item-block {
   display: -webkit-flex;
   display: -moz-flex;
@@ -666,35 +667,35 @@ section.katalog {
   display: flex;
   justify-content: center; }
 
-/* line 588, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 589, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .katalog__item-right {
   margin-left: 10px; }
 
-/* line 591, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 592, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .katalog__item-functions {
   padding-left: 10px; }
 
-/* line 594, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 595, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .katalog__item-desc td {
   display: block;
   font-size: 10px;
   padding-left: 10px; }
 
-/* line 599, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 600, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .katalog__item-desc {
   width: 100%; }
 
-/* line 602, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 603, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .katalog__item-functions {
   margin-top: 10px; }
 
-/* line 606, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 607, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 section.buy {
   padding: 40px 0 50px 0;
   background-image: url(/img/five_bg.jpg);
   background-size: cover; }
 
-/* line 611, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 612, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .buy__title {
   color: #f8ecec;
   font-family: "GothamProLight";
@@ -702,19 +703,19 @@ section.buy {
   text-transform: uppercase;
   text-align: center; }
 
-/* line 618, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 619, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .buy__title-second {
   color: #fcf3f3;
   font-family: "GothamProBold";
   text-transform: uppercase;
   font-size: 35px; }
 
-/* line 624, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 625, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .buy__title-third {
   font-size: 20px;
   font-family: "GothamProLight"; }
 
-/* line 628, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 629, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .header__promo-square.buy__skidka {
   color: #030303;
   font-family: "GothamProBold";
@@ -723,7 +724,7 @@ section.buy {
   margin-top: 30px !important;
   margin-bottom: 30px; }
 
-/* line 637, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 638, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .buy__oldprice {
   color: #f8ecec;
   font-family: "GothamProLight";
@@ -731,11 +732,11 @@ section.buy {
   text-decoration: line-through;
   text-transform: uppercase; }
 
-/* line 645, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 646, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .buy__newprice-block {
   margin-top: 40px; }
 
-/* line 648, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 649, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .buy__newprice {
   color: #f8ecec;
   font-family: "GothamProLight";
@@ -747,7 +748,7 @@ section.buy {
   margin-right: 30px;
   vertical-align: middle; }
 
-/* line 659, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 660, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .buy__price {
   color: #f8eded;
   font-family: "GothamProBold";
@@ -757,181 +758,181 @@ section.buy {
   display: inline-block;
   vertical-align: middle; }
 
-/* line 668, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 669, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .buy__currency {
   font-size: 28px;
   font-family: "GothamProLight";
   margin-left: 10px;
   display: inline-block; }
 
-/* line 674, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 675, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .buy__form {
   margin-top: 35px; }
 
-/* line 677, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 678, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .buy__timer-block {
   margin-top: 50px; }
 
-/* line 680, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 681, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .input__view-buybtn, .input__view-tel, .input__view-buyname {
   width: 100% !important;
   max-width: 475px; }
 
-/* line 684, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 685, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .db-form-button.input__view-buybtn {
   padding-top: 32px;
   padding-bottom: 32px;
   font-size: 16px;
   line-height: 16px; }
 
-/* line 690, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 691, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .input__view-tel, .input__view-buyname {
   margin-bottom: 25px; }
 
-/* line 693, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+/* line 694, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
 .buy__form .db-form-box {
   width: 100% !important; }
 
 @media screen and (min-width: 480px) {
-  /* line 700, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 701, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .dg-left, .dg-right {
     display: block; }
-  /* line 703, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 704, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .price__block {
     width: 380px;
     margin: auto; }
-  /* line 707, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 708, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   a.nabor__moreinfo {
     width: 380px;
     margin: auto; }
-  /* line 711, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 712, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .nabor__list {
     width: 380px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px; }
-  /* line 717, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 718, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .header__title {
     font-size: 24px; }
-  /* line 720, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 721, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .header__promo-text {
     font-size: 20px; }
-  /* line 723, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 724, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .header__promo-square {
     font-size: 20px; }
-  /* line 726, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 727, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .katalog__item-tdl {
     line-height: 16px; }
-  /* line 729, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 730, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .katalog__item-tdr, .katalog__item-text {
     line-height: 16px; }
-  /* line 732, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 733, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .katalog__item-desc td {
     display: table-cell; } }
 
 @media screen and (min-width: 768px) {
-  /* line 738, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 739, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .price__block {
     width: 100%;
     margin: auto;
     margin-top: 20px; }
-  /* line 743, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 744, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   a.nabor__moreinfo {
     width: 100%;
     margin: auto; }
-  /* line 747, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 748, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .nabor__list {
     width: 100%;
     margin: auto;
     margin-bottom: 20px;
     margin-top: 20px; }
-  /* line 753, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 754, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .header__title {
     font-size: 28px; }
-  /* line 756, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 757, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .header__promo-text {
     font-size: 22px; }
-  /* line 759, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 760, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .header__promo-square {
     font-size: 24px; }
-  /* line 762, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 763, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .header__promo-square.buy__skidka {
     font-size: 36px;
     margin-top: 100px !important; }
-  /* line 766, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 767, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .buy__title {
     color: #f8ecec;
     font-family: "GothamProLight";
     font-size: 32px;
     text-transform: uppercase; }
-  /* line 772, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 773, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .buy__title-second {
     color: #fcf3f3;
     font-family: "GothamProBold";
     text-transform: uppercase;
     font-size: 49px; }
-  /* line 778, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 779, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .buy__title-third {
     font-size: 39px;
     font-family: "GothamProLight"; }
-  /* line 782, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 783, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .db-form-button.input__view-buybtn {
     font-size: 25px;
     line-height: 25px; }
-  /* line 786, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 787, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .buy__price {
     font-size: 46px; } }
 
 @media screen and (min-width: 992px) {
-  /* line 793, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 794, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .testimonials__title:before, .testimonials__title:after {
     content: '';
     position: absolute;
     width: 94px;
     height: 1px;
     background: #cececf; }
-  /* line 800, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 801, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .testimonials__title:before {
     left: -117px;
     top: 50%; }
-  /* line 804, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 805, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .testimonials__title:after {
     right: -117px;
     top: 50%; }
-  /* line 812, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 813, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .nabor__title:before, .nabor__title:after {
     content: '';
     position: absolute;
     width: 94px;
     height: 1px;
     background: #cececf; }
-  /* line 819, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 820, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .nabor__title:before {
     left: -117px;
     top: 50%; }
-  /* line 823, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 824, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .nabor__title:after {
     right: -117px;
     top: 50%; }
-  /* line 830, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 831, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .dostavka__title:before, .dostavka__title:after {
     content: '';
     position: absolute;
     width: 94px;
     height: 1px;
     background: #cececf; }
-  /* line 837, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 838, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .dostavka__title:before {
     left: -117px;
     top: 50%; }
-  /* line 841, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 842, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .dostavka__title:after {
     right: -117px;
     top: 50%; }
-  /* line 846, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 847, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .delivery__header {
     left: 39%; }
-  /* line 850, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 851, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .kazakh__img-block:after {
     background: url("../img/dots.png") no-repeat;
     width: 104px;
@@ -940,170 +941,171 @@ section.buy {
     top: 65px;
     right: -65px;
     content: ""; }
-  /* line 861, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 862, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .last__block:after {
     content: none; }
-  /* line 865, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 866, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   section.kazakh {
     padding-top: 50px;
     padding-bottom: 60px; }
-  /* line 869, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 870, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .header__title {
     font-size: 39px; }
-  /* line 872, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 873, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .header__promo-text {
     font-size: 24px; }
-  /* line 875, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 876, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .header__promo-square {
     font-size: 30px; }
-  /* line 878, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 879, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .dd-sec, .dd-hours, .dd-min {
     width: 35px;
     font-size: 39px;
     line-height: 39px; }
-  /* line 883, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 884, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .header__timer-block {
     margin-top: 200px; }
-  /* line 886, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 887, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .header__promo-square {
     margin-top: 0; }
-  /* line 889, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 890, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .header-top {
     height: 600px; }
-  /* line 893, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 894, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .katalog__item-title {
     margin-top: 40px; }
-    /* line 895, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+    /* line 896, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
     .katalog__item-title:before, .katalog__item-title:after {
       content: '';
       position: absolute;
       width: 94px;
       height: 1px;
       background: #cececf; }
-    /* line 902, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+    /* line 903, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
     .katalog__item-title:before {
       left: -117px;
       top: 50%; }
-    /* line 906, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+    /* line 907, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
     .katalog__item-title:after {
       right: -117px;
       top: 50%; }
-  /* line 911, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 912, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .katalog__item-desc td {
     font-size: 12px;
     line-height: 22px; }
-  /* line 915, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 916, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .katalog__item-functiontext {
     line-height: 16px; }
-  /* line 918, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 919, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .db-form-button.input__view-buybtn {
     font-size: 32px; } }
 
 @media screen and (min-width: 1170px) {
-  /* line 923, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 924, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .testimonials__carousel .dg-left {
     background-image: url(/img/left_btn.png);
     background-size: cover;
     left: -40px; }
-  /* line 928, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 929, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .testimonials__carousel .dg-right {
     background-image: url(/img/right_btn.png);
     background-size: cover;
     right: -40px; }
-  /* line 934, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 935, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .testimonials__title:before, .testimonials__title:after {
     width: 94px; }
-  /* line 938, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 939, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .nabor__carousel .dg-left {
     left: -40px; }
-  /* line 941, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 942, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .nabor__carousel .dg-right {
     right: -40px; }
-  /* line 945, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 946, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .nabor__title:before, .nabor__title:after {
     width: 94px; }
-  /* line 951, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 952, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .bx-wrapper {
     display: inline-block !important;
     vertical-align: middle;
     margin-left: 10px !important; }
-  /* line 956, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 957, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .katalog__item-imgwrap {
     width: 305px;
-    height: 350px; }
-  /* line 960, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+    height: 350px;
+    overflow: hidden; }
+  /* line 962, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .katalog__item-right {
     width: 460px; }
-  /* line 963, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 965, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .bx-wrapper {
     margin-top: 0 !important; }
-  /* line 967, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 969, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .header__promo-square.buy__skidka {
     font-size: 40px;
     margin-top: 400px !important;
     margin-bottom: 0; }
-  /* line 972, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 974, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .buy__title {
     color: #f8ecec;
     font-family: "GothamProLight";
     font-size: 32px;
     text-transform: uppercase; }
-  /* line 978, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 980, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .buy__title-second {
     color: #fcf3f3;
     font-family: "GothamProBold";
     text-transform: uppercase;
     font-size: 49px; }
-  /* line 984, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 986, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .buy__title-third {
     font-size: 39px;
     font-family: "GothamProLight"; }
-  /* line 988, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 990, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .buy__price {
     font-size: 46px; } }
 
 @media screen and (min-width: 1248px) {
-  /* line 994, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 996, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .nabor__carousel .owl-item .price__block {
     padding: 20px 85px; }
-  /* line 998, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 1000, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .header__promo-text {
     font-size: 26px; }
-  /* line 1001, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 1003, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .katalog__item-right {
     width: 560px; }
-  /* line 1004, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 1006, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .katalog__item-imgwrap {
     width: 405px;
     height: 350px; }
-  /* line 1008, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 1010, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .katalog__item-desc td {
     font-size: 12px;
     line-height: 26px; }
-  /* line 1012, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 1014, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .buy__title {
     color: #f8ecec;
     font-family: "GothamProLight";
     font-size: 42px;
     text-transform: uppercase; }
-  /* line 1018, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 1020, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .buy__title-second {
     color: #fcf3f3;
     font-family: "GothamProBold";
     text-transform: uppercase;
     font-size: 79px; }
-  /* line 1024, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 1026, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .buy__title-third {
     font-size: 59px;
     font-family: "GothamProLight"; }
-  /* line 1028, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 1030, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .buy__price {
     font-size: 56px; }
-  /* line 1031, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 1033, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .header__promo-square.buy__skidka {
     font-size: 40px;
     margin-top: 305px !important; }
-  /* line 1035, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
+  /* line 1037, ../../OpenServer/domains/watchnext.loc/css/style-dg.scss */
   .header__promo-square.buy__skidka {
     padding-top: 22px;
     padding-bottom: 22px; } }

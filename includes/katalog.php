@@ -7,8 +7,10 @@
             </div>
             <div class="katalog__item-block">
                 <div class="katalog__item-left">
-                    <div class="katalog__item-imgwrap katalog__item-imgwrap1">
-                        <img src="img/tissot_black.jpg" alt="" class="katalog__item-img">
+                    <div class="katalog__item-imgwrap">
+                        <a href="#" rel="group" class="katalog__item-imgwrap1">
+                            <img src="img/tissot_black.jpg" alt="" class="katalog__item-img">
+                        </a>
                     </div>
                     <ul class="bxslider katalog__slider-list js-click1">
                       <li class="katalog__slider-item"><a href="img/tissot_name.jpg"><img src="/img/tissot_name.jpg" /></a></li>
@@ -79,7 +81,7 @@
             <div class="katalog__item-block">
                 <div class="katalog__item-left">
                     <div class="katalog__item-imgwrap katalog__item-imgwrap2">
-                        <img src="img/swiss_black.jpg" alt="" class="katalog__item-img">
+                        <img src="img/swiss_black.jpg" alt="" class="single_image katalog__item-img">
                     </div>
                     <ul class="bxslider js-click2 katalog__slider-list js-click2">
                       <li class="katalog__slider-item"><a href="img/swiss_name.jpg"><img src="img/swiss_name.jpg" /></a></li>
@@ -150,9 +152,9 @@
             <div class="katalog__item-block">
                 <div class="katalog__item-left">
                     <div class="katalog__item-imgwrap katalog__item-imgwrap3">
-                        <img src="img/breitling_black.jpg" alt="" class="katalog__item-img">
+                        <img src="img/breitling_black.jpg" alt="" class="single_image katalog__item-img">
                     </div>
-                    <ul class="bxslider js-click2 js-click3 katalog__slider-list">
+                    <ul class="bxslider js-click3 katalog__slider-list">
                       <li class="katalog__slider-item"><a href="img/breitling.jpg"><img src="img/breitling.jpg" /></a></li>
                       <li class="katalog__slider-item"><a href="img/navitimer_m.jpg"><img src="img/navitimer_m.jpg" /></a></li>
                       <li class="katalog__slider-item"><a href="img/table__video.jpg"><img src="img/table__video.jpg" /></a></li>
@@ -221,7 +223,7 @@
             <div class="katalog__item-block">
                 <div class="katalog__item-left">
                     <div class="katalog__item-imgwrap katalog__item-imgwrap4">
-                        <img src="img/rolex_g.jpg" alt="" class="katalog__item-img">
+                        <img src="img/rolex_g.jpg" alt="" class="single_image katalog__item-img">
                     </div>
                     <ul class="bxslider js-click4 katalog__slider-list">
                       <li class="katalog__slider-item">
@@ -304,7 +306,7 @@
             <div class="katalog__item-block">
                 <div class="katalog__item-left">
                     <div class="katalog__item-imgwrap katalog__item-imgwrap5">
-                        <img src="img/armani_black.jpg" alt="" class="katalog__item-img">
+                        <a href="#"><img src="img/armani_black.jpg" alt="" class="single_image katalog__item-img"></a>
                     </div>
                     <ul class="bxslider katalog__slider-list js-click5">
                       <li class="katalog__slider-item"><a href="img/armani_name.jpg"><img src="img/armani_name.jpg" /></a></li>

@@ -37,7 +37,8 @@ $(document).ready(function() {
       var newImage = $('<img src="' + imgPath +'">');
 
       newImage.hide();     
-      $('.katalog__item-imgwrap1').prepend(newImage);     
+      $('.katalog__item-imgwrap1').prepend(newImage);
+      $('.katalog__item-imgwrap1').attr('href', imgPath);  
       newImage.fadeIn(300);    
 
       oldImage.fadeOut(200,function(){
@@ -117,4 +118,15 @@ $(document).ready(function() {
      });    
      });   
      $('.js-click5 a:first').click();
+    
+    
+    $(".single_image").fancybox();
+    $("a[rel=group]").fancybox({
+      'transitionIn' : 'none',
+      'transitionOut' : 'none',
+      'titlePosition' : 'over',
+      'titleFormat' : function(title, currentArray, currentIndex, currentOpts) {
+       return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+       }
+    });
 })
