@@ -10,13 +10,13 @@
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
-	padding: 30px 0 40px 0 !important;
+	padding: 50px 0 50px 0 !important;
 }
 .df-status{
 	max-width: 584px;
 	width: 100%;
 	margin: 0 auto;
-	    padding: 12px 13px 9px 6px;
+	padding: 12px 13px 9px 6px;
 	background-color: rgba(#fddc43, 0.89);
 }
 .df-border{
@@ -32,12 +32,10 @@
 	text-transform: uppercase; 
 }
 .dflighttxt{
-	font-size: 29px;
+	font-size: 24px;
 	color: #030303;
 	text-transform: uppercase; 
-	font-family: "GothamProLight";
-	
-	
+	font-family: "GothamProLight";	
 }
 
 
@@ -52,6 +50,10 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.dflighttxt{
+		font-size: 29px;		
+	}
+
 }
 
 @media only screen and (min-width : 1248px) {
