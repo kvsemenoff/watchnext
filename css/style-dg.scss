@@ -533,7 +533,7 @@ section.katalog {
     }
 }
 .katalog__item-imgwrap {
-    width: 205px;
+    width: 190px;
     height: 150px;
     display: inline-block;
     vertical-align: middle;
@@ -593,8 +593,9 @@ section.katalog {
     padding-left: 10px;
 }
 .katalog__item-desc td {
-    display: table-row;
+    display: block;
     font-size: 10px;
+    padding-left: 10px;
 }
 .katalog__item-desc {
     width: 100%;
