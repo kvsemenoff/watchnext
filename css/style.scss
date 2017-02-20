@@ -24,6 +24,7 @@ h2{
 	font-family: "GothamProBold";
 	font-size: 32px;
 	text-transform: uppercase;
+    font-weight: 700;
 }
 
 .section_padding{
@@ -35,6 +36,8 @@ h2{
 	color: #0c0b0b;
     font-family: "GothamProBlack";
 	text-transform: uppercase;
+	border: none;
+
 
 }
 .input__view{
@@ -42,10 +45,9 @@ h2{
 	outline: none;
 	color: #060606;
 	line-height: 26px;
-	width: 305px;
-	height: 52px;
 	font-family: "GothamProRegular";
 	padding-left: 50px;
+	height: 52px;
 }
 
 
