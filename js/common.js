@@ -9,13 +9,14 @@ $(document).ready(function(){
     winH = $(window).height();
     $(id).css("left", winW/2-$(id).width()/2);
     $(id).css("top", winH/2-$(id).height()/2);
-    // $('body').css("overflow-y", "hidden");
+    $('body').css("overflow-y", "hidden");
     $(id).fadeIn();
     $('#js-mask').fadeIn();
   });
   $('#js-mask, .db-close').on("click", function(){
     $('#js-mask').hide();
     $('.js-window').hide();
+      $('body').removeAttr("style");
 
   });
 

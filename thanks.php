@@ -32,18 +32,18 @@
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
 
-
+<section class="db-thanks-section">
 	<div class="container">
 		<div class="row">
 		<div class="col-md-12">
 			<div class="db-spasibo">
-				<span>Спасибо за заявку!</span>
+				<span>Спасибо за заявку!</span><br>
 				<span>Наш менеджер свяжется с вами в ближайшее время!</span>
 			</div>
-			<a href="/" class="db-spasibo">Перейти на главную</a>
+			<a href="/" class="db-spasibo-a">Перейти на главную</a>
 			</div>
 		</div>
 	</div>
-
+</section>
 </body>
 </html>

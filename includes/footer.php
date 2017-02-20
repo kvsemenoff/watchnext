@@ -22,4 +22,3 @@
 		</form>
 	</div>
 </div>
-<a href="#js-form1" name="js-modal"> hello</a>
