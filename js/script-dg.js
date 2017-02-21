@@ -56,7 +56,8 @@ $(document).ready(function() {
        var newImage = $('<img src="' + imgPath +'">');
 
        newImage.hide();     
-       $('.katalog__item-imgwrap2').prepend(newImage);     
+       $('.katalog__item-imgwrap2').prepend(newImage);
+       $('.katalog__item-imgwrap2').attr('href', imgPath);  
        newImage.fadeIn(300);    
 
        oldImage.fadeOut(200,function(){
@@ -74,7 +75,8 @@ $(document).ready(function() {
        var newImage = $('<img src="' + imgPath +'">');
 
        newImage.hide();     
-       $('.katalog__item-imgwrap3').prepend(newImage);     
+       $('.katalog__item-imgwrap3').prepend(newImage);
+       $('.katalog__item-imgwrap3').attr('href', imgPath);  
        newImage.fadeIn(300);    
 
        oldImage.fadeOut(200,function(){
@@ -92,7 +94,8 @@ $(document).ready(function() {
        var newImage = $('<img src="' + imgPath +'">');
 
        newImage.hide();     
-       $('.katalog__item-imgwrap4').prepend(newImage);     
+       $('.katalog__item-imgwrap4').prepend(newImage);
+       $('.katalog__item-imgwrap4').attr('href', imgPath);  
        newImage.fadeIn(300);    
 
        oldImage.fadeOut(200,function(){
@@ -110,7 +113,8 @@ $(document).ready(function() {
        var newImage = $('<img src="' + imgPath +'">');
 
        newImage.hide();     
-       $('.katalog__item-imgwrap5').prepend(newImage);     
+       $('.katalog__item-imgwrap5').prepend(newImage);
+       $('.katalog__item-imgwrap5').attr('href', imgPath);  
        newImage.fadeIn(300);    
 
        oldImage.fadeOut(200,function(){
