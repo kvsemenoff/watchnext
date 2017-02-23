@@ -24,7 +24,7 @@
                         </ul>
                         <a href="#" class="nabor__moreinfo">Подробнее</a>
                     </div>
-               <div class="nabor__carousel-item">
+               <div class="nabor__carousel-item item_5">
                         <div class="nabor__carousel-header">
                             <span class="nabor__item-name"><strong class="nabor__strong">Пять часов</strong> по цене одних
 </span>

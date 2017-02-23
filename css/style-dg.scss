@@ -129,9 +129,11 @@ section.nabor {
     color: #030303;
     font-size: 16px;
     text-transform: uppercase;
+    text-align: center;
 }
 .nabor__carousel-header {
     margin-bottom: 25px;
+    text-align: center;
 }
 .nabor__avatar {
     margin-bottom: 20px;
@@ -142,6 +144,8 @@ section.nabor {
     img {
         max-width: 100%;
         max-height: 100% !important;
+        width: unset !important;
+        margin: auto;
     }
 }
 .price__block {
@@ -188,9 +192,10 @@ section.nabor {
     font-size: 14px;
     text-align: center;
     text-transform: uppercase;
-    padding: 10px 95px;
+    padding: 10px 0px;
     background: #d8d8d5;
 }
+
 .price__block {
     margin-top: 20px;
 }
@@ -220,7 +225,7 @@ section.nabor {
         }
     }
     .nabor__carousel-item {
-        padding: 0;
+        padding: 15px 7px;
     }
     .nabor__strong {
         font-size: 20px;
@@ -694,6 +699,7 @@ section.buy {
 .buy__form .db-form-box {
     width: 100% !important;
 }
+
 @media only screen and (min-width : 320px) {
 }
 
@@ -786,6 +792,9 @@ section.buy {
     }
     .buy__price {
         font-size: 46px;
+    }
+    .item_5 {
+        max-width: 338px;
     }
 }
 
@@ -919,6 +928,7 @@ section.buy {
     .db-form-button.input__view-buybtn {
         font-size: 32px;
     }
+    
 }
 @media screen and (min-width : 1170px) {
     .testimonials__carousel .dg-left {
@@ -990,11 +1000,14 @@ section.buy {
     .buy__price {
         font-size: 46px;
     }
+    .item_5 {
+        max-width: unset;
+    }
 }
 @media screen and (min-width : 1248px) {
     .nabor__carousel .owl-item {
         .price__block {
-            padding: 20px 85px;
+            padding: 20px 75px;
         }
     }
     .header__promo-text {
